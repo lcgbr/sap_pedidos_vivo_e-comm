@@ -1,0 +1,6 @@
+logs/
+credentials/
+nohup.out
+check.log
+versions/
+tests/

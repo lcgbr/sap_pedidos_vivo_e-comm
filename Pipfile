@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "==1.5.3"
+google-cloud-bigquery = "*"
+oauth2client = "*"
+google-api-python-client = "*"
+db-dtypes = "*"
+httpx = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
