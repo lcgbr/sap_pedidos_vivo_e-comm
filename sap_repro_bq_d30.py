@@ -6,6 +6,7 @@
 
 # dbutils.library.installPyPI("pandas", version="1.5.3")
 # dbutils.library.restartPython() # Removes Python state, but some libraries might not work without calling this command.
+### teste
 
 # COMMAND ----------
 
@@ -736,7 +737,7 @@ async def getDeliveryStatus(orderid):
   return response
 
 
-# COMMAND -------------------
+# COMMAND ----------
 
 async def getVivoOrderType(orderid):
   
@@ -791,7 +792,7 @@ async def getVivoOrderType(orderid):
 
   return response
 
-# COMMAND--------------------
+# COMMAND ----------
 
 def getOrdersAll_coupons():
   url = f"https://{endpoint}/odata2webservices/OutboundPromotion/PromotionSourceRules?$top=999999"
